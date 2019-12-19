@@ -1,0 +1,184 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Pinboard",
+        "description": "Store, manage and share bookmarks on Pinboard",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pinboard.in\/v1"
+    ],
+    "paths": {
+        "\/posts\/update": {
+            "get": {
+                "summary": "Update Tag",
+                "description": "Returns the most recent time a bookmark was added, updated or deleted. Use this before calling posts\/all to see if the data has changed since the last fetch.",
+                "operationId": "PostsUpdateGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/posts\/add": {
+            "get": {
+                "summary": "Add New Bookmark",
+                "description": "Add a new bookmark.",
+                "operationId": "PostsAddGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/posts\/delete": {
+            "get": {
+                "summary": "Delete a Post",
+                "description": "Delete a bookmark.",
+                "operationId": "PostsDeleteGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/posts\/get": {
+            "get": {
+                "summary": "Get Posts",
+                "description": "Returns one or more posts on a single day matching the arguments. If no date or url is given, date of most recent bookmark will be used.",
+                "operationId": "PostsGetGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/posts\/dates": {
+            "get": {
+                "summary": "Get Post by Dates",
+                "description": "Returns a list of dates with the number of posts at each date.",
+                "operationId": "PostsDatesGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/posts\/recent": {
+            "get": {
+                "summary": "Get Recent Posts",
+                "description": "Returns a list of the user's most recent posts, filtered by tag.",
+                "operationId": "PostsRecentGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tag",
+                        "in": "query",
+                        "description": "filter by up to three tags"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "number of results to return. Default is 15, max is 100"
+                    }
+                ]
+            }
+        },
+        "\/posts\/all": {
+            "get": {
+                "summary": "Get All Posts",
+                "description": "Returns all bookmarks in the user's account.",
+                "operationId": "PostsAllGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "results",
+                        "in": "query",
+                        "description": "number of results to return. Default is all."
+                    },
+                    {
+                        "name": "tag",
+                        "in": "query",
+                        "description": "filter by up to three tags"
+                    },
+                    {
+                        "name": "start",
+                        "in": "query",
+                        "description": "offset value (default is 0)"
+                    },
+                    {
+                        "name": "fromdt",
+                        "in": "query",
+                        "description": "return only bookmarks created after this time"
+                    },
+                    {
+                        "name": "todt",
+                        "in": "query",
+                        "description": "eturn only bookmarks created before this time"
+                    },
+                    {
+                        "name": "meta",
+                        "in": "query",
+                        "description": "include a change detection signature for each bookmark"
+                    }
+                ]
+            }
+        },
+        "\/posts\/suggest": {
+            "get": {
+                "summary": "Get Popular Tags",
+                "description": "Returns a list of popular tags and recommended tags for a given URL. Popular tags are tags used site-wide for the url; recommended tags are drawn from the user's own tags.",
+                "operationId": "PostsSuggestGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "url",
+                        "in": "query",
+                        "description": "url to suggest from."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "the format to return"
+                    }
+                ]
+            }
+        },
+        "\/tags\/get": {
+            "get": {
+                "summary": "Get Tags",
+                "description": "Returns a full list of the user's tags along with the number of times they were used.",
+                "operationId": "TagsGetGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "the format to return"
+                    }
+                ]
+            }
+        },
+        "\/tags\/delete": {
+            "get": {
+                "summary": "Deletes Tag",
+                "description": "Delete an existing tag.",
+                "operationId": "TagsDeleteGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/tags\/rename": {
+            "get": {
+                "summary": "Rename Tags",
+                "description": "Rename an tag, or fold it in to an existing tag.",
+                "operationId": "TagsRenameGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/user\/secret": {
+            "get": {
+                "summary": "Get User Secret",
+                "description": "Get the secret RSS token (allows viewing user's private RSS feeds).",
+                "operationId": "UserSecretGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
