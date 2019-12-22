@@ -1,5 +1,5 @@
 {
-    "id": "08a04ae74c6ce2311b9be478ae77d29c",
+    "id": "aaec537ee39c06dbc60a06be674ba7f9",
     "name": "Pinboard",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "db8e555b330f10bfe6849974bdf434a7",
+            "id": "669d28f19eeae4d4d3afb2b37d013541",
             "name": "Update Tag",
             "url": "httpsapi.pinboard.in\/v1\/posts\/update",
             "description": "Returns the most recent time a bookmark was added, updated or deleted. Use this before calling posts\/all to see if the data has changed since the last fetch.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "ff92a19db063fdd543db95c4408b45db",
+            "id": "d6959182a8ee6b8dc0e35879e69e3bef",
             "name": "Add New Bookmark",
             "url": "httpsapi.pinboard.in\/v1\/posts\/add",
             "description": "Add a new bookmark.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "cecd3fd0402303d6255656a23c7d65b1",
+            "id": "3a253c14c3fc839e98043a676f94babc",
             "name": "Delete a Post",
             "url": "httpsapi.pinboard.in\/v1\/posts\/delete",
             "description": "Delete a bookmark.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "09dccfe27f51acfdbe3ffdc83acb19ed",
+            "id": "38edcc711cd4cc33199846f6006884ed",
             "name": "Get Posts",
             "url": "httpsapi.pinboard.in\/v1\/posts\/get",
             "description": "Returns one or more posts on a single day matching the arguments. If no date or url is given, date of most recent bookmark will be used.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "9eb823065fd84e4f2f68fc837401e6a3",
+            "id": "36ace00575df338bdc67816bbe389e83",
             "name": "Get Post by Dates",
             "url": "httpsapi.pinboard.in\/v1\/posts\/dates",
             "description": "Returns a list of dates with the number of posts at each date.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "375207b54bd4a98b6423158b093ff424",
+            "id": "82bdb7ae6537696a5f173b758928d129",
             "name": "Get Recent Posts",
             "url": "httpsapi.pinboard.in\/v1\/posts\/recent",
             "description": "Returns a list of the user's most recent posts, filtered by tag.",
@@ -159,11 +159,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "2608fcb6c579e6866e99c952d4a0cd4e",
+            "id": "8b780fc51eee7345af2373426e573f29",
             "name": "Get All Posts",
             "url": "httpsapi.pinboard.in\/v1\/posts\/all",
             "description": "Returns all bookmarks in the user's account.",
@@ -225,11 +225,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "5e1c4945ceba9ba7b34e73deece4a445",
+            "id": "26d9cf4fbcd83badeae700adabe313db",
             "name": "Get Popular Tags",
             "url": "httpsapi.pinboard.in\/v1\/posts\/suggest",
             "description": "Returns a list of popular tags and recommended tags for a given URL. Popular tags are tags used site-wide for the url; recommended tags are drawn from the user's own tags.",
@@ -263,11 +263,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "ec4b426a99ba3274db0e4ce3b63f3d70",
+            "id": "fccb82bbb37f75f0a077ae6954401ea7",
             "name": "Get Tags",
             "url": "httpsapi.pinboard.in\/v1\/tags\/get",
             "description": "Returns a full list of the user's tags along with the number of times they were used.",
@@ -294,11 +294,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "d57b091bbe978b094561dab9f17d8fae",
+            "id": "3c914f3430f0caad9b89d009b6315111",
             "name": "Deletes Tag",
             "url": "httpsapi.pinboard.in\/v1\/tags\/delete",
             "description": "Delete an existing tag.",
@@ -317,11 +317,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "4046e935f56e6d568734a51f5bbbe6ac",
+            "id": "6480e4116bd68d1d42d7d93db41c466f",
             "name": "Rename Tags",
             "url": "httpsapi.pinboard.in\/v1\/tags\/rename",
             "description": "Rename an tag, or fold it in to an existing tag.",
@@ -340,11 +340,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         },
         {
-            "id": "64de9e5e0e1a220245b331975855cc14",
+            "id": "ce7f22f9c3a8e6d852f05be2dcf83fb8",
             "name": "Get User Secret",
             "url": "httpsapi.pinboard.in\/v1\/user\/secret",
             "description": "Get the secret RSS token (allows viewing user's private RSS feeds).",
@@ -363,7 +363,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08a04ae74c6ce2311b9be478ae77d29c",
+            "collectionId": "aaec537ee39c06dbc60a06be674ba7f9",
             "rawModeData": ""
         }
     ]
